@@ -1,1 +1,2 @@
-# Login
+images directory folder
+C:\images
