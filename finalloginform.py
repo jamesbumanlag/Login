@@ -10,7 +10,7 @@ root.resizable(False,False)
 root.geometry("657x510+350+100")
 
 #BACKGROUND IMAGE
-frame_bg = tk.PhotoImage(file='C:/images/imagebg.png')
+frame_bg = tk.PhotoImage(file='imagebg.png')
 
 #CREATE MAIN FRAME
 main_frame = Frame(root, height=510,width=657)
@@ -33,7 +33,7 @@ frame_lbl_bg = Label(main_frame,image=frame_bg)
 frame_lbl_bg.place(x=0,y=0)
 
 #user login image/icon
-login_image = tk.PhotoImage(file="C:/images/user_icon.png")
+login_image = tk.PhotoImage(file="user_icon.png")
 login_image_icon = Label(
     login_frame,
     image=login_image,
@@ -73,7 +73,7 @@ frame_password_line = Frame(login_frame)
 frame_password_line.place(x=25,y=280, width=170)
 
 #show/Hide button
-button_show_image = tk.PhotoImage(file='C:\images\pass_hide.png')
+button_show_image = tk.PhotoImage(file='pass_hide.png')
 button_show = Button(
     login_frame,image=button_show_image, 
     borderwidth=0,
@@ -83,7 +83,7 @@ button_show = Button(
 button_show.place(x=200,y=250)
 
 #login button
-button_login_image = tk.PhotoImage(file='C:\images\login.png')
+button_login_image = tk.PhotoImage(file='login.png')
 button_login = Button(
     login_frame,
     image=button_login_image,
@@ -223,7 +223,7 @@ frame_password_line = Frame(frame_create_account)
 frame_password_line.place(x=30,y=325, width=170)
 
 #show/Hide button - frame_create_account
-button_show_image_create = tk.PhotoImage(file='C:\images\pass_hide.png')
+button_show_image_create = tk.PhotoImage(file='pass_hide.png')
 button_show_image_create = Button(
     frame_create_account,image=button_show_image, 
     borderwidth=0,
@@ -233,7 +233,7 @@ button_show_image_create = Button(
 button_show_image_create.place(x=210,y=300)
 
 #Create account button - frame_reset_password
-imagebt_create_account = tk.PhotoImage(file='C:\images\create_accbtn.png')
+imagebt_create_account = tk.PhotoImage(file='create_accbtn.png')
 button_create_acccount = Button(frame_create_account,
                                 image=imagebt_create_account,
                                 borderwidth=0,
@@ -332,7 +332,7 @@ frame_reset_password_line = Frame(frame_reset_password)
 frame_reset_password_line.place(x=30,y=268, width=170)
 
 #Create reset button - frame_reset_password
-imagebt_reset_account = tk.PhotoImage(file='C:\images\change_button.png')
+imagebt_reset_account = tk.PhotoImage(file='change_button.png')
 button_create_acccount = Button(frame_reset_password,
                                 image=imagebt_reset_account,
                                 borderwidth=0,
@@ -387,7 +387,7 @@ frame_forgot_password_line = Frame(frame_forgot_password)
 frame_forgot_password_line.place(x=50,y=228, width=170)
 
 #Create forgot button - frame_forgot_password
-imagebt_forgot_account = tk.PhotoImage(file='C:\images\Button.png')
+imagebt_forgot_account = tk.PhotoImage(file='Button.png')
 button_forgot_acccount = Button(frame_forgot_password,
                                 image=imagebt_forgot_account,
                                 borderwidth=0,
